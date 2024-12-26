@@ -5,7 +5,7 @@
 <ul class="list-unstyled">
   {% for entry in site.data.education %}
     <li class="media">
-      <img src="{{ entry.Icon }}" class="mr-3" alt="..." style="width: 72px; height: auto;">
+      <img src="{{ entry.Icon }}" class="mr-3" alt="..." style="width: auto; height: 72px;">
       <div class="media-body">
         <h5 style="font-family:{{ theme.education-entry-font}};font-size:{{ theme.education-entry-size }};color:{{theme.education-font-color}};">
           {{ entry.School }}
@@ -14,7 +14,7 @@
           <i>{{ entry.Program }}</i>
         </p>
         {% if entry.Degree %}
-          <p>{{ entry.Degree }}</p>
+          <p>{{ entry.Degree }}</p>{% if entry.StartDate %}<i>{{ entry.StartDate }} - </i>{% endif %}{% if entry.EndDate %}<i>{{ entry.EndDate }}</i>{% endif %}
         {% endif %}
       </div>
     </li>
