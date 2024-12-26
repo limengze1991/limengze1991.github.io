@@ -2,7 +2,7 @@
 ---
 
 <div class="row">
-  <div id="{{entry.key}}" class="col-sm-8">
+  <div id="{{entry.key}}" class="col-sm-12">
     {% if entry.type == "thesis" %}
       {{reference}}
     {% else %}
@@ -17,7 +17,7 @@
             {% endif %}
           {% else %}
             {% unless forloop.last %}
-              {% if author.last == site.scholar.last_name %}
+              {% if author.last == site.scholar.last_name && author.first == site.scholar.first_name %}
                 <em>{{author.last}}, {{author.first}}</em>,
               {% else %}
                 {% if site.data.coauthors[author.last] %}
