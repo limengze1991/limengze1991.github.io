@@ -12,7 +12,13 @@
   Icon: /assets/img/icons/1x/umich-logo.png      # Make this icon small, think 30px/30px
 - School: Max Planck Institute for Chemistry
   Degree: Postdoctoral Scholar
-  Program: 
+  Program: Atmospheric Chemistry Department
   Start Date: 2021-01
   End Date: 2021-10
-  Icon: /assets/img/icons/1x/umich-logo.png      # Make this icon small, think 30px/30px
+  Icon: /assets/img/icons/1x/MaxPlanck-logo.jpg      # Make this icon small, think 30px/30px
+- School: Max Planck Institute for Chemistry
+  Degree: PhD
+  Program: Atmospheric Chemistry Department
+  Start Date: 2018-04
+  End Date: 2020-12
+  Icon: /assets/img/icons/1x/MaxPlanck-logo.jpg      # Make this icon small, think 30px/30px
