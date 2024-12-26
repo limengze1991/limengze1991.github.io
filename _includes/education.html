@@ -19,12 +19,16 @@
           <i>{{ entry.Program }}</i>
         </p>
         {% if entry.Degree %}
-          <p style="margin-bottom: 0.25rem;">{{ entry.Degree }}
-            {% if entry.StartDate %}
-              <h5 style="display: inline; font-size: inherit; font-style: italic;">{{ entry.StartDate }} - </h5>
-            {% endif %}
-            {% if entry.EndDate %}
-              <h5 style="display: inline; font-size: inherit; font-style: italic;">{{ entry.EndDate }}</h5>
+          <p style="margin-bottom: 0.25rem;">
+            {{ entry.Degree }}
+            {% if entry.StartDate or entry.EndDate %}
+              <span style="font-size: 0.85em; color: {{theme.education-font-color}}; margin-left: 0.5rem;">
+                <i>
+                  {% if entry.StartDate %}{{ entry.StartDate }}{% endif %}
+                  {% if entry.StartDate and entry.EndDate %} - {% endif %}
+                  {% if entry.EndDate %}{{ entry.EndDate }}{% endif %}
+                </i>
+              </span>
             {% endif %}
           </p>
         {% endif %}

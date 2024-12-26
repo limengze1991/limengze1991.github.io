@@ -1,24 +1,24 @@
 - School: Stanford University
   Degree: Postdoctotal Scholar 
   Program: Doerr School of Sustainability, Department of Earth System Science             
-  StartDate: 2023-09
-  EndDate: 
+  StartDate: 2023.09
+  EndDate: Now
   Icon: /assets/img/icons/1x/Stanford.png      # Make this icon small, think 30px/30px
 - School: University of Michigan - Ann Arbor
   Degree: Postdoctoral Scholar
   Program: College of Engineering, Department of Climate and Space Sciences and Engineering 
-  StartDate: 2021-11
-  EndDate: 2023-08
+  StartDate: 2021.11
+  EndDate: 2023.08
   Icon: /assets/img/icons/1x/umich-logo.png      # Make this icon small, think 30px/30px
 - School: Max Planck Institute for Chemistry
   Degree: Postdoctoral Scholar
   Program: Atmospheric Chemistry Department
-  StartDate: 2021-01
-  EndDate: 2021-10
+  StartDate: 2021.01
+  EndDate: 2021.10
   Icon: /assets/img/icons/1x/MaxPlanck-logo.jpg      # Make this icon small, think 30px/30px
 - School: Max Planck Institute for Chemistry
   Degree: PhD
   Program: Atmospheric Chemistry Department
-  StartDate: 2018-04
-  EndDate: 2020-12
+  StartDate: 2018.04
+  EndDate: 2020.12
   Icon: /assets/img/icons/1x/MaxPlanck-logo.jpg      # Make this icon small, think 30px/30px
