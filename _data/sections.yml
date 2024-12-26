@@ -4,9 +4,9 @@
   url: publications.html
   first: true
   
-- name: Coursework
-  id: courses
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+- name: Mentoring
+  id: mentoring
+  description: I am honored to mentor these highly skilled students
   content: 
   first: false
 
@@ -24,3 +24,9 @@
   url: projects.html
   first: false
 
+- name: Services
+  id: services
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  content: 
+  url: projects.html
+  first: false
