@@ -4,17 +4,29 @@
 </h5>
 <ul class="list-unstyled">
   {% for entry in site.data.education %}
-    <li class="media">
-      <img src="{{ entry.Icon }}" class="mr-3" alt="..." style="width: auto; height: 72px;">
-      <div class="media-body">
+    <li class="media" style="display: flex; align-items: flex-start; margin-bottom: 1rem;">
+      <!-- Fixed block size for icon -->
+      <div style="width: 90px; text-align: center; flex-shrink: 0;">
+        <img src="{{ entry.Icon }}" alt="Icon" style="height: 72px; width: auto;">
+      </div>
+      <!-- Content -->
+      <div class="media-body" style="margin-left: 1rem;">
         <h5 style="font-family:{{ theme.education-entry-font}};font-size:{{ theme.education-entry-size }};color:{{theme.education-font-color}};">
           {{ entry.School }}
         </h5>
-        <p style="font-family:{{ theme.education-entry-font}};font-size:{{ theme.education-section-size }};color:{{theme.education-font-color}};">
+        <!-- Reduced vertical space -->
+        <p style="font-family:{{ theme.education-entry-font}};font-size:{{ theme.education-section-size }};color:{{theme.education-font-color}}; margin-bottom: 0.25rem;">
           <i>{{ entry.Program }}</i>
         </p>
         {% if entry.Degree %}
-          <p>{{ entry.Degree }}</p>{% if entry.StartDate %}<i>{{ entry.StartDate }} - </i>{% endif %}{% if entry.EndDate %}<i>{{ entry.EndDate }}</i>{% endif %}
+          <p style="margin-bottom: 0.25rem;">{{ entry.Degree }}
+            {% if entry.StartDate %}
+              <h5 style="display: inline; font-size: inherit; font-style: italic;">{{ entry.StartDate }} - </h5>
+            {% endif %}
+            {% if entry.EndDate %}
+              <h5 style="display: inline; font-size: inherit; font-style: italic;">{{ entry.EndDate }}</h5>
+            {% endif %}
+          </p>
         {% endif %}
       </div>
     </li>
