@@ -1,6 +1,6 @@
 - name: Publications
   id: publications
-  description: 
+  description: * = Mengze as coresponding author/shared-first author
   url: publications.html
   first: true
   
