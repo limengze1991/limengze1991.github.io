@@ -12,9 +12,9 @@
 
 - name: Teaching
   id: teaching
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: teaching experience here
   content: 
-  url: teaching.html
+  url: teaching.yml
   first: false
 
 - name: Projects
