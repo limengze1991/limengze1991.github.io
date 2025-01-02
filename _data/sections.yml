@@ -1,6 +1,6 @@
 - name: Publications
   id: publications
-  description: \* = Mengze as coresponding author/shared-first author
+  description: 
   url: publications.html
   first: true
   
@@ -12,7 +12,7 @@
 
 - name: Teaching
   id: teaching
-  description: teaching experience here
+  description: 
   content: 
   url: teaching.html
   first: false
