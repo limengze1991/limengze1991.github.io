@@ -4,8 +4,7 @@
   id: 
   data-id: 
   heading-id: 
-  StartDate: 08/29/2022
+  StartDate: 08/30/2022
   EndDate: 04/30/2023
   first: true   # one must be true to properly display
-  description: > .
-    
+  description: > 
