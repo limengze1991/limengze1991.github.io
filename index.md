@@ -12,5 +12,5 @@ Research interests:
  - Advanced instrumentations and sensors, satellite remote sensing, machine learning
 
 <br>
-<a href="mailto:mengze@stanford.edu" style="background-color: #e6f3ff; text-decoration: none;">Contact me via Email (Click)</a>
+<a href="mailto:mengze@stanford.edu" style="background-color: #cce6ff; text-decoration: none;">Contact me via Email (Click)</a>
 <br>
