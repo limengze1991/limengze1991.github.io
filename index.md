@@ -8,7 +8,7 @@ I'm a postdoctoral scholar at Stanford University, working with <a href="https:/
 
 <a href="https://scholar.google.com/citations?user=6uJuFqEAAAAJ&hl=en" target="_blank" style="text-decoration: underline;">Google Scholar Page (Click here)</a>,  <a href="https://www.linkedin.com/in/mengze-li-19049b178/" target="_blank" style="text-decoration: underline;">Linked In Profile (Click here)</a>
 
-<a href="mailto:mengze@stanford.edu" target="_blank" style="background-color: #cce6ff; text-decoration: none;">Contact me via Email: mengze@stanford.edu (or click here)</a>
+<a href="mailto:mengze@stanford.edu" target="_blank" style="background-color: #cce6ff; text-decoration: none;">Contact me via Email: mengze@stanford.edu</a>
 
 Research interests:
  - Carbon cycle and drivers of greenhouse gases
