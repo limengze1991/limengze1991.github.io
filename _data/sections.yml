@@ -31,9 +31,3 @@
 #   content: 
 #   url: services.html
 #   first: false
-
-- name: Services
-  id: services
-  description: Here are the services I offer.
-  content: >
-    I provide expert consultation and mentoring in climate science, greenhouse gas modeling, and scientific writing. Feel free to reach out for collaborations and projects.
